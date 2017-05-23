@@ -1,0 +1,23 @@
+{
+  "name": "todoapi",
+  "version": "0.1.0",
+  "description": "node js rest api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dimger89/toDoApi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dimger89/toDoApi/issues"
+  },
+  "homepage": "https://github.com/dimger89/toDoApi#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
