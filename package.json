@@ -19,6 +19,7 @@
   "homepage": "https://github.com/dimger89/toDoApi#readme",
   "dependencies": {
     "bluebird": "^3.5.0",
+    "body-parser": "^1.17.2",
     "express": "^4.15.3",
     "mongoose": "^4.10.2"
   }
