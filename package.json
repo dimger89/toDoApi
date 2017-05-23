@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/dimger89/toDoApi#readme",
   "dependencies": {
-    "express": "^4.15.3"
+    "bluebird": "^3.5.0",
+    "express": "^4.15.3",
+    "mongoose": "^4.10.2"
   }
 }
