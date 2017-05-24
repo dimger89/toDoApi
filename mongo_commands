@@ -1,0 +1,7 @@
+mongod --dbpath /MongoDB/Server/3.4/data -v
+
+mongo play
+
+show collections
+db.users.find().pretty()
+db.users.insert({ name: "Sasha", likesMongo: true })
