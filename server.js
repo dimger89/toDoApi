@@ -9,13 +9,14 @@ const port = 3000;
 
 let userSchema = mongoose.Schema({
     name: String,
-    checked: Boolean
+    checked: Boolean,
+    children: Array
 });
 
 let User = mongoose.model('User', userSchema);
 
-var anotherUser = new User({ name: 'Zhora', checked: true });
-console.log(anotherUser.name);
+var anotherUser = new User({ name: 'Petya', checked: true, children: [{name: 'Petya2', checked: true}] });
+
 
 // anotherUser.save((err) => {
 //   if (err) {
